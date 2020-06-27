@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Item"
+                android:id="@+id/add_txt"
+                android:gravity="center"
+                android:padding="10dp"
+                android:layout_margin="10dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:background="@drawable/back_design">
+
+
+            </TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Type:"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content">
+
+
+                    </TextView>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:id="@+id/edit_input"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content">
+
+                    </EditText>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Amount:"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content">
+
+
+                    </TextView>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:id="@+id/edit_amt"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content">
+
+                    </EditText>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Note:"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content">
+
+
+                    </TextView>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:id="@+id/edit_note"
+                        android:layout_margin="10dp"
+                        android:layout_height="wrap_content">
+
+                    </EditText>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Save"
+                android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:textColor="#FFFFFF"
+                android:background="@drawable/back_design"
+                android:id="@+id/btn_save">
+
+            </Button>
+
+
+
+            ]
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
